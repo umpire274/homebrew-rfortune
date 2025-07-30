@@ -5,20 +5,20 @@ class Rfortune < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/umpire274/rFortune/releases/download/v0.2.2/rfortune-x86_64-apple-darwin.tar.gz"
-      version "0.2.2"
-      sha256 "319032b6a0e1477a221ffebac7bea8484d158328c94bd84ba22e654044cc8c7a"
+      url "https://github.com/umpire274/rFortune/releases/download/v0.3.0/rfortune-x86_64-apple-darwin.tar.gz"
+      version "0.3.0"
+      sha256 "7e7fcbc3b70b5a45fee6df01308873e9df057cf3a786b55f8eaf7076f89677a3"
     elsif Hardware::CPU.arm?
-      url "https://github.com/umpire274/rFortune/releases/download/v0.2.2/rfortune-aarch64-apple-darwin.tar.gz"
-      version "0.2.2"
-      sha256 "c158679daeb8bce3f5ac5e31635b92e70ef2583e5531b878880444941a8541e6"
+      url "https://github.com/umpire274/rFortune/releases/download/v0.3.0/rfortune-aarch64-apple-darwin.tar.gz"
+      version "0.3.0"
+      sha256 "501d5260eb60fdda2d21af0e523327edc3db02e15c7db43585c08de1b77dadf7"
     end
   end
 
   on_linux do
-    url "https://github.com/umpire274/rFortune/releases/download/v0.2.2/rfortune-x86_64-unknown-linux-gnu.tar.gz"
-    version "0.2.2"
-    sha256 "4252913ddf3c46c278aaf28fc6720989a54074136093a0cf71f983c531b1d7e9"
+    url "https://github.com/umpire274/rFortune/releases/download/v0.3.0/rfortune-x86_64-unknown-linux-gnu.tar.gz"
+    version "0.3.0"
+    sha256 "011596e9fe1fd04cb21c89d0597b4ede3df4c1869c1dc8728f90dec1c456f2e0"
   end
 
   def install
